@@ -1,0 +1,47 @@
+# YOLOv5 requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+gitpython>=3.1.30
+matplotlib>=3.3
+numpy>=1.23.5
+opencv-python>=4.6.0  # Updated for better compatibility
+pillow>=10.3.0
+psutil  # system resources
+PyYAML>=5.3.1
+requests>=2.32.2
+scipy>=1.4.1
+thop>=0.1.1  # FLOPs computation
+torch>=1.12.0  # Updated for latest PyTorch features
+torchvision>=0.13.0  # Updated for compatibility with PyTorch
+tqdm>=4.66.3
+ultralytics>=8.2.34  # https://ultralytics.com
+protobuf<=3.20.1  # resolves compatibility issues with Ultralytics
+
+# Logging ---------------------------------------------------------------------
+tensorboard>=2.4.1  # for training logs visualization
+clearml>=1.2.0  # optional remote logging and experiment tracking
+
+# Plotting --------------------------------------------------------------------
+pandas>=1.5.2  # Updated for latest features
+seaborn>=0.11.0  # advanced plotting
+
+# Export ----------------------------------------------------------------------
+coremltools>=6.0  # CoreML export for Apple devices
+onnx>=1.13.0  # Updated for better ONNX support
+onnx-simplifier>=0.4.1  # simplifies ONNX models
+nvidia-pyindex  # TensorRT export (NVIDIA GPUs)
+nvidia-tensorrt  # TensorRT export (NVIDIA GPUs)
+scikit-learn<=1.1.2  # CoreML quantization support
+tensorflow>=2.4.0,<=2.13.1  # TensorFlow export options (-cpu, -aarch64, -macos)
+tensorflowjs>=3.9.0  # TensorFlow.js export for web applications
+openvino-dev>=2023.0  # OpenVINO export for Intel hardware
+
+# Deploy ----------------------------------------------------------------------
+setuptools>=70.0.0  # Snyk vulnerability fix for packaging
+
+# Extras ----------------------------------------------------------------------
+ipython  # interactive notebook support
+mss  # screenshot utilities for debugging or visualization
+albumentations>=1.0.3  # advanced image augmentations for training
+pycocotools>=2.0.6  # COCO dataset metrics and evaluation tools
