@@ -344,8 +344,7 @@ Data Scientist | Computer Vision Engineer
 ## 📞 Support & Contact
 
 - 💬 **Issues**: [GitHub Issues](https://github.com/ImdataScientistSachin/yolov5-yolov8-computer-vision/issues)
-- 📧 **Email**: sachin@example.com (replace with actual)
-- 🐦 **Twitter**: [@yourhandle](https://twitter.com/yourhandle) (optional)
+- 📧 **Email**: imdatascientistsachin@gmail.com (replace with actual)
 
 ---
 
