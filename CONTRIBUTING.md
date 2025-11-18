@@ -62,12 +62,10 @@ Add multi-camera stitching"
 4. Code Style & Best Practices
 
 Follow PEP 8 (Python style guide)
-Add comments for complex parts
-Keep notebooks clean and reproducible
+Add comments for complex parts Keep notebooks clean and reproducible
 Include before/after screenshots or GIFs in your PR description
 
 5. Pull Request Guidelines
-
 One feature/fix per PR (keeps reviews fast)
 Reference the issue number (e.g., Closes #12)
 Be friendly — this is a learning space! 😊
@@ -76,16 +74,14 @@ Example PR title:
 feat: add ByteTrack integration with 15% better tracking accuracy
 
 
-After Your PR is Merged
-
+After Your PR is Merged 
 You’ll be added to the Contributors Hall of Fame (coming soon in README)
 I’ll share your contribution on LinkedIn/X with credit
 You get permanent bragging rights! 🎉
 
 Need Help?
 
-Open an issue with label help wanted or question
-DM me on LinkedIn
+Open an issue with label help wanted or question DM me on LinkedIn
 I reply fast and love mentoring contributors
 
 Code of Conduct
