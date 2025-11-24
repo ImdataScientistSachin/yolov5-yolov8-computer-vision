@@ -21,18 +21,18 @@ This project provides hands-on learning materials for computer vision enthusiast
 
 ```
 Open CV/
-├── face_Detection_OpenCV.ipynb              # Face detection with YuNet model
-├── feature_Mapping_OpenCV.ipynb             # Feature detection and mapping
-├── Hough_Transform_for_LineDetection.ipynb  # Line detection using Hough Transform
-├── image_grayscale_converter_OpenCV.ipynb   # Grayscale conversion techniques
-├── image_Segmentation_OpenCV.ipynb          # Watershed segmentation algorithm
-├── image_Stitching_OpenCV.ipynb             # Image stitching and panorama creation
-├── live_GrayScale_Conversion.ipynb          # Real-time grayscale conversion
-├── morphological_transformations_OpenCV.ipynb # Morphological operations
-├── Object_trackeng_OpenCV.ipynb             # Object tracking in videos
-├── Pencil_sketch_conversion_OpenCV.ipynb    # Artistic pencil sketch effects
-├── face_detection_settings.json             # Configuration for face detection
-├── face_detection_yunet_2023mar.onnx        # Pre-trained YuNet face detection model
+├── face_Detection_OpenCV.py                  # Face detection with YuNet model
+├── feature_Mapping_OpenCV.py                 # Feature detection and mapping
+├── Hough_Transform_for_LineDetection.py      # Line detection using Hough Transform
+├── image_grayscale_converter_OpenCV.py       # Grayscale conversion techniques
+├── image_Segmentation_OpenCV.py              # Watershed segmentation algorithm
+├── image_Stitching_OpenCV.py                 # Image stitching and panorama creation
+├── live_GrayScale_Conversion.py              # Real-time grayscale conversion
+├── morphological_transformations_OpenCV.py   # Morphological operations
+├── Object_trackeng_OpenCV.py                 # Object tracking in videos
+├── Pencil_sketch_conversion_OpenCV.py        # Artistic pencil sketch effects
+├── face_detection_settings.json              # Configuration for face detection
+├── face_detection_yunet_2023mar.onnx         # Pre-trained YuNet face detection model
 └── sample_files/
     ├── airport.mp4
     ├── crowd.mp4
@@ -44,7 +44,7 @@ Open CV/
 
 ## 🚀 Tutorials Overview
 
-### 1. **Face Detection** (`face_Detection_OpenCV.ipynb`)
+### 1. **Face Detection** (`face_Detection_OpenCV.py`)
 Advanced face detection using the YuNet deep learning model with a comprehensive GUI.
 
 **Features:**
@@ -58,7 +58,7 @@ Advanced face detection using the YuNet deep learning model with a comprehensive
 
 ---
 
-### 2. **Feature Mapping** (`feature_Mapping_OpenCV.ipynb`)
+### 2. **Feature Mapping** (`feature_Mapping_OpenCV.py`)
 Detect and map distinctive features across images using various descriptors.
 
 **Features:**
@@ -72,7 +72,7 @@ Detect and map distinctive features across images using various descriptors.
 
 ---
 
-### 3. **Hough Line Transform** (`Hough_Transform_for_LineDetection.ipynb`)
+### 3. **Hough Line Transform** (`Hough_Transform_for_LineDetection.py`)
 Detect straight lines in images using the classical Hough Transform algorithm.
 
 **Features:**
@@ -86,7 +86,7 @@ Detect straight lines in images using the classical Hough Transform algorithm.
 
 ---
 
-### 4. **Image Grayscale Conversion** (`image_grayscale_converter_OpenCV.ipynb`)
+### 4. **Image Grayscale Conversion** (`image_grayscale_converter_OpenCV.py`)
 Multiple techniques for converting color images to grayscale.
 
 **Features:**
@@ -99,7 +99,7 @@ Multiple techniques for converting color images to grayscale.
 
 ---
 
-### 5. **Live Grayscale Conversion** (`live_GrayScale_Conversion.ipynb`)
+### 5. **Live Grayscale Conversion** (`live_GrayScale_Conversion.py`)
 Real-time video stream grayscale conversion with interactive GUI.
 
 **Features:**
@@ -111,7 +111,7 @@ Real-time video stream grayscale conversion with interactive GUI.
 
 ---
 
-### 6. **Image Segmentation** (`image_Segmentation_OpenCV.ipynb`)
+### 6. **Image Segmentation** (`image_Segmentation_OpenCV.py`)
 Segment images into distinct regions using watershed algorithm and other techniques.
 
 **Features:**
@@ -137,7 +137,7 @@ Create panoramic images by stitching multiple overlapping images.
 
 ---
 
-### 8. **Morphological Transformations** (`morphological_transformations_OpenCV.ipynb`)
+### 8. **Morphological Transformations** (`morphological_transformations_OpenCV.py`)
 Apply morphological operations to modify image structure and shape.
 
 **Features:**
@@ -151,7 +151,7 @@ Apply morphological operations to modify image structure and shape.
 
 ---
 
-### 9. **Object Tracking** (`Object_trackeng_OpenCV.ipynb`)
+### 9. **Object Tracking** (`Object_trackeng_OpenCV.py`)
 Track objects across video frames using various tracking algorithms.
 
 **Features:**
@@ -165,7 +165,7 @@ Track objects across video frames using various tracking algorithms.
 
 ---
 
-### 10. **Pencil Sketch Conversion** (`Pencil_sketch_conversion_OpenCV.ipynb`)
+### 10. **Pencil Sketch Conversion** (`Pencil_sketch_conversion_OpenCV.py`)
 Transform photos into artistic pencil sketch style images.
 
 **Features:**
