@@ -192,7 +192,7 @@ python train.py \
 ```
 yolov5-yolov8-computer-vision/
 ├── YOLOv8 and OpenCV built-in tracking/
-│   ├── Live_Tracking.ipynb       # 🎮 Interactive demo notebook
+│   ├── Live_Tracking.ipynb or py       # 🎮 Interactive demo notebook
 │   ├── README.md                 # Detailed project docs
 │   ├── best.pt                   # Security-tuned weights
 │   └── yolov8n.pt               # Baseline model
